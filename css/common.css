@@ -1,0 +1,193 @@
+@charset "utf-8";
+
+/*Pretendard*/
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-style: normal;
+}
+
+
+header {
+    width: 1300px;
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#iconbox {
+    width: 1300px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#iconbox .icon1 {
+    width: 17%;
+    height: 100px;
+}
+
+#iconbox .icon1 img {
+    margin-top: 20px;
+    float: left;
+    width: 170px;
+}
+
+#iconbox .icon1 input {
+    margin-top: 33px;
+    margin-left: -120px;
+    width: 200px;
+    border: none;
+    width: 160px;
+    height: 20px;
+    outline: none;
+}
+
+
+#iconbox .icon2 {
+    width: 15%;
+    height: 60px;
+    margin-top: 20px;
+}
+
+#iconbox .icon2 img {
+    width: 60px;
+}
+
+#iconbox > .logo {
+    align-self: center;
+    margin-top: 12px;
+}
+
+#iconbox > .logo > a > img[alt="logo1"] {
+    width: 220px;
+}
+
+
+header nav {
+    width: 1920px;
+    text-align: center;
+    padding: 30px;
+    border-top: 1px solid #1a1a1a;
+    margin: 0 auto;
+}
+
+header nav .navbox {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+header ul {
+    width: 1300px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 30px;
+    font-family: 'Kaisei Opti', serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: #222;
+}
+
+
+
+footer {
+    width: 100%;
+    border-top: 1px solid #1a1a1a;
+    margin-top: 100px;
+}
+
+.footerbox {
+    width: 1300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+
+.footerbox  > .f0 {
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin-top: 80px;
+    margin-left: 80px;
+
+}
+
+.footerbox  > .f0 > img[alt="logo2"]{
+    width: 200px;
+    margin-left: 15px;
+}
+
+.footerbox > .f1 {
+    width: 700px;
+    height: 150px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 70px;
+}
+
+.footerbox > .f1 > .bar {
+    width: 660px;
+    height: 40px;
+}
+
+.footerbox > .f1 > .bar > ul {
+    width: 950px;
+    float: left;
+    margin-top: 10px;
+}
+
+.footerbox > .f1 > .bar > ul > li{
+    float: left;
+    font-family: 'Pretendard';
+    margin: 0 35px 0 0;
+    color: #8a8a8a;
+}
+
+.footerbox > .f1 > .bar > ul > li > a:hover{
+    font-weight: bold;
+}
+
+.footerbox > .f1 > .call {
+    width: 190px;
+    height: 110px;
+    float: left;
+}
+
+.footerbox > .f1 > .call > h1 {
+    font-size: 19px;
+    margin-top: 20px;
+}
+
+.footerbox > .f1 > .call > h2 {
+    margin-top: -10px;
+    font-size: 36px;
+}
+
+.footerbox > .f1 > .copy {
+    width: 490px;
+    height: 110px;
+    float: left;
+    margin-left: 20px;
+    padding-left: 35px;
+}
+
+.footerbox > .f1 > .copy > p {
+    font-family: 'Pretendard';
+    margin-top: 20px;
+    line-height: 23px;
+}
+
+.footerbox > .f1 > .copy > p > span {
+    color: #2b2b2b;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+

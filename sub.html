@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RA-D ROOM_moon pot</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/sub.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+    <script>
+
+        $(document).ready(function () {
+
+            $(".brand-img-slide li:first-child").click(function () {
+
+                $("#main-real").attr("src", "img/pro_1.jpg");
+
+            });
+
+            $(".brand-img-slide li:nth-child(2)").click(function () {
+
+                $("#main-real").attr("src", "img/pro_2.jpg");
+
+            });
+
+            $(".brand-img-slide li:nth-child(3)").click(function () {
+
+                $("#main-real").attr("src", "img/pro_3.jpg");
+
+            });
+
+            $(".brand-img-slide li:nth-child(4)").click(function () {
+
+                $("#main-real").attr("src", "img/pro_4.jpg");
+
+            });
+
+
+            $("#info li:nth-of-type(1)").click(function () {
+
+                $(".infomation").fadeIn();
+                $(".review").hide();
+                $(".QandA").hide();
+                $(".sand").hide();
+
+            });
+
+            $("#info li:nth-of-type(2)").click(function () {
+
+                $(".review").fadeIn();
+                $(".infomation").hide();
+                $(".QandA").hide();
+                $(".sand").hide();
+
+            });
+
+            $("#info li:nth-of-type(3)").click(function () {
+
+                $(".QandA").fadeIn();
+                $(".infomation").hide();
+                $(".review").hide();
+                $(".sand").hide();
+
+            });
+
+            $("#info li:nth-of-type(4)").click(function () {
+
+                $(".sand").fadeIn();
+                $(".infomation").hide();
+                $(".review").hide();
+                $(".QandA").hide();
+
+            });
+
+        });
+
+    </script>
+
+</head>
+
+<body>
+    
+    <header>
+        <div id="iconbox">
+            <div class="icon1">
+                <img src="img/icon01.png" alt="search">
+                <input type="text" placeholder="search">
+            </div>
+
+            <div class="logo">
+                <a href="main.html"><img src="img/logo.png" alt="logo1"></a>
+            </div>
+
+            <div class="icon2">
+                <img src="img/icon02.png" alt="my">
+                <img src="img/icon03.png" alt="like">
+                <img src="img/icon04.png" alt="bag">
+            </div>
+        </div>
+
+        <nav>
+            <div class="navbox">
+            <ul>
+                <li><a href="our.html">OUR STORY</a></li>
+                <li><a href="brandweek.html">BRAND WEEK</a></li>
+                <li><a href="louis.html">BRAND COLLECTION</a></li>
+                <li><a href="#concept">CONCEPT IDEA</a></li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <section>
+        <div class="tag1">
+            <p class="bc">BRAND</p>
+            <p class="radroom">Ra-D Room</p>
+        </div>
+    </section>
+
+    <section>
+        <div id="product">
+            <div class="brand-home">
+                <div class="radi">
+                    <img src="img/radroom_logo.jpg" alt="radroom">
+                </div>
+                <div class="radi-box">
+                    <h1>라디룸</h1>
+                    <span>느낌이 있는 좋은 풍경, 디자인 조명공간 라디룸</span>
+                    <br>
+                    <button type="button">BRAND HOME</button>
+                </div>
+            </div>
+            <div class="product-box">
+                <div class="brand-img">
+                    <div class="brand-img-main">
+                        <img src="img/pro_1.jpg" alt="product1" id="main-real">
+                    </div>
+                    <div class="brand-img-slide">
+                        <ul>
+                            <li><img src="img/pro_1.jpg" alt="product2"></li>
+                            <li><img src="img/pro_2.jpg" alt="product3"></li>
+                            <li><img src="img/pro_3.jpg" alt="product4"></li>
+                            <li><img src="img/pro_4.jpg" alt="product5"></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="brand-text">
+                    <div class="box1">
+                        <div class="head">
+                            <h3>Moon Pot Table Stand [빛품달:달항아리조명]</h3>
+                            <pre>★★★★☆</pre>
+                            <a href="">
+                                <p>46개 리뷰 보기</p>
+                            </a>
+                            <p>198,000원</p>
+                            <span>1,980p (1%) 적립</span>
+                        </div>
+                        <div class="sidehead">
+                            <div class="heart">
+                                <img src="img/icon03.png" alt="">
+                            </div>
+                            <button type="button">쿠폰 받기</button>
+                        </div>
+                    </div>
+                    <div class="box2">
+                        <div class="for">
+                            <p><span>회원</span>님 구매 가능 가격</p>
+                        </div>
+                        <div class="fortwo">
+                            <p><span>15%</span>168,300원</p>
+                        </div>
+                    </div>
+                    <div class="box3">
+                        <div class="gb">
+                            <h5>배송정보</h5>
+                        </div>
+
+                        <table>
+                            <tr>
+                                <th>배송비<br>&nbsp;</th>
+                                <td>해당 브랜드 제품으로만 200,000원 이상 구매시 무료배송( 미만시 배송비 3000원 발생 ) 제주도를 포함한 도서/산간 지역 추가 배송비 없음
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>배송예정</th>
+                                <td><span>1일 내</span> 출고 (주말, 공휴일 제외)</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="box4">
+                        <select name="조명 색상" id="select">
+                            <option value="none" disabled>조명 색상</option>
+                            <option value="color">opeal white</option>
+                            <option value="color">matte whihe</option>
+                        </select>
+
+                        <select name="Lamp Color" id="selecttwo">
+                            <option value="none" disabled>Lamp 색상</option>
+                            <option value="lamp">white</option>
+                            <option value="lamp">purple</option>
+                            <option value="lamp">blue</option>
+                        </select>
+                    </div>
+                    <div class="box5">
+                        <button type="button">장바구니 담기</button>
+                        <button type="button" name="go">바로 구매하기</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="info">
+        <nav>
+            <ul>
+                <li>정보</li>
+                <li>리뷰 (6)</li>
+                <li>Q&A</li>
+                <li>배송 및 환불</li>
+            </ul>
+        </nav>
+    </div>
+
+        <div class="wrap">
+            <div class="infomation">
+
+                <a href=""><img src="img/rad_brand_contact.jpg" alt=""></a>
+                <img src="img/moonpot_1.jpg" alt="">
+
+                <div class="clasic">
+                    <div class="left">
+                        <img src="img/moonpot_2.jpg" alt="">
+                    </div>
+                    <div class="right">
+                        <img src="img/moonpot_3.jpg" alt="">
+                    </div>
+                    <div class="righttwo">
+                        <h2>클래식한 디자인과<br>모던한 빛의 만남<br><span>'빛품달'</span></h2>
+                        <p>달항아리 형태에서 영감을 받은,
+                            <br>
+                            너무나 닮고 싶은 그 유려한 곡선,
+                            <br>
+                            그 안에 소박하게 담은 빛.
+                            <br>
+                            이 모든 것이 당신의 공간을 특별하게
+                            <br>
+                            만들어 줄 작품으로 탄생하였습니다.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="mordern">
+                    <img src="img/moonpot_4.jpg" alt="">
+                    <div class="mordern_textbox">
+                        <h2>고전과<br>현대적 요소의<br><span>세련된 결합</span></h2>
+                        <p>할머니한테 물려 받은 듯한 항아리 한 점은
+                            <br>
+                            현대적인 디자인 소품, 복고풍 가구 등
+                            <br>
+                            다양한 스타일과도 조화롭게 공존합니다.
+                            <br>
+                            바라만 보아도 할머니 집이 떠오르는,
+                            <br>
+                            어딘지 모를 친근함과 느긋함이 느껴지는
+                            <br>
+                            과거와 현대를 넘나드는 공간이 됩니다.
+                        </p>
+                        <div class="mordern_imgbox">
+                            <img src="img/moonpot_5.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="object">
+                    <img src="img/moonpot_6.jpg" alt="">
+                    <div class="object_textbox">
+                        <div class="object_textbox_head">
+                            <h2>공간의 여백과<br><span>취향을 채우는</span></h2>
+                        </div>
+                        <div class="object_textbox_second">
+                            <p>자신의 취향과 개성이 오롯이 담긴 애장품과 오브젝트 등으로 꾸민
+                                <br>
+                                꾸민 공간은 마치 감각적인 편집솝을 보는 듯합니다.
+                                <br>
+                                <br>
+                                단아한 형태미를 통해 예술적이고
+                                <br>
+                                감각적인 오브제로서의 역할뿐만 아니라
+                                <br>
+                                공간을 밝히는 빛으로 일상의 편안함을 더합니다.
+                            </p>
+                        </div>
+                        <div class="object_imgbox">
+                            <img src="img/moonpot_7.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="color">
+                    <img src="img/moonpot_8.jpg" alt="">
+                    <div class="color_textbox">
+                        <h2>조명이라 가능한
+                            <br>
+                            다양한 컬러 연출
+                        </h2>
+                        <p>
+                            라디룸에서 달항아리를
+                            <br>
+                            어렵게 유리로 만든 이유,
+                            <br><br>
+                            조명을 껐을 때는 우아한 백자로
+                            <br>
+                            조명을 키면 주변을 밝히는
+                            <br>
+                            따듯한 달항아리로
+                            <br><br>
+                            어떠한 컬러, 분위기로든
+                            <br>
+                            연출할 수 있습니다.
+                        </p>
+                    </div>
+                    <div class="color_imgbox">
+                        <img src="img/moonpot_9.jpg" alt="">
+                    </div>
+                    <div class="color_textbox2">
+                        <p>일반램프로 켜도 예쁘지만, 스마트 램프를 사용하면
+                            <br>
+                            다양한 빛과 컬러, 밝기를 연출 할 수 있습니다.
+                            <br>
+                            고급스러운 한국전통 컬러와 색이 담긴 의미를
+                            <br>
+                            되새기며 기분 좋은 공간으로 채워나가는 건 어떨까요?
+                        </p>
+                    </div>
+                </div>
+
+                <div class="color_second">
+                    <img src="img/moonpot_11.jpg" alt="moonpota">
+                    <img src="img/moonpot_12.jpg" alt="moonpotb">
+                    <img src="img/moonpot_13.jpg" alt="moonpotc">
+                    <img src="img/moonpot_14.jpg" alt="moonpotd">
+                </div>
+            </div>
+
+            <div class="review">
+
+                <div class="review_top">
+                    <h1>리뷰(6) <span>★★★★☆</span></h1>
+                </div>
+
+                <div class="review_middle">
+                    <div class="review_imgbox_slide">
+                        <img src="img/slide_button.png" alt="">
+                    </div>
+
+                    <div class="review_imgbox">
+                        <img src="img/review_1.jpg" alt="">
+                        <img src="img/review_2.jpg" alt="">
+                        <img src="img/review_3.jpg" alt="">
+                        <img src="img/review_4.jpg" alt="">
+                        <img src="img/review_5.jpg" alt="">
+                    </div>
+
+                    <div class="review_imgbox_slide2">
+                        <img src="img/slide_button2.png" alt="">
+                    </div>
+                </div>
+
+                <div class="review_bottom">
+
+                    <div class="review_voise1">
+                        <p><span>★★★★★</span> jin***</p>
+                        <span>옵션:[color]opal White [LED 램프]4W 전구색(+5,000원) [액세서리 링]선택 안함</span>
+                        <h5>살까말까 고민하다가 실물보고 너무 예뻐서 구입했는데 매우 만족합니다. 조명을 켜지 않고 두어도 오브제로 제 몫을 단단히 하네요 :D</h5>
+                        <img src="img/review_1.jpg" alt="">
+                    </div>
+
+                    <div class="review_voise2">
+                        <p><span>★★★★☆</span> kmk****</p>
+                        <span>옵션:[color]opal white [LED 램프] 필립스 WIZ 스마트램프(8W, 컬러변환)(+24,000원) [액세서리 링] 선택안함</span>
+                        <h5>방과 잘 어울리고 분위기 최고입니다.</h5>
+                    </div>
+
+                    <div class="review_voise3">
+                        <p><span>★★★★★</span> kyl****</p>
+                        <span>옵션: [color]opal white [LED 램프] 디밍(밝기조절)스위치+디밍램프(전구색 8W)(_12,000원) [액세서리 링] 선택안함</span>
+                        <h5>고민하던 조명인데 입점되어있는 걸 알게되어 구매했어요. 조도 조절도 가능하고 그리고 예뻐요 ㅠ</h5>
+                        <img src="img/review_2.jpg" alt="">
+                    </div>
+
+                    <div class="review_voise4">
+                        <p><span>★★★★★</span> hoi*****</p>
+                        <span>옵션: [color]opal white [LED 램프] 필립스 WIZ 스마트램프(8W, 컬러변환)(+24,000원) [액세서리 링] 선택안함</span>
+                        <h5>유리라서 깨질까 걱정되지만 밝고 예뻐요! 달항아리에 꽂혀서 너무 만족합니다! 불켜두지않아도 하나의 오브제로도 예뻐요!</h5>
+                        <img src="img/review_3.jpg" alt="">
+                    </div>
+
+                    <div class="review_voise5">
+                        <p><span>★★★★★</span> imj***</p>
+                        <span>옵션: [color]opal white [LED 램프] 필립스 WIZ 스마트램프(8W, 컬러변환)(+24,000원) [액세서리 링] 선택안함</span>
+                        <h5>고급지면서도 너무 아름답습니다. 강력 추천~</h5>
+                        <img src="img/review_4.jpg" alt="">
+                    </div>
+
+                    <div class="review_voise6">
+                        <p><span>★★★★★</span> uaj***</p>
+                        <span>옵션: [color]opal white [LED 램프] 디밍(밝기조절)스위치+디밍램프(전구색 8W)(_12,000원) [액세서리 링] 선택안함</span>
+                        <h5>예뻐요. 안방을 한국적이게 꾸미고자했는데 마음에들어요 정말로!</h5>
+                        <img src="img/review_5.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="QandA">
+                <div class="QandA_top">
+                    <div class="product_qa">
+                        <h1>상품 Q&A(4)</h1>
+                    </div>
+
+                    <div class="product_qa2">
+                        <ul>
+                            <li>ALL</li>
+                            <li>|</li>
+                            <li>상품문의(2)</li>
+                            <li>|</li>
+                            <li>재입고문의(1)</li>
+                            <li>|</li>
+                            <li>사이즈 문의</li>
+                            <li>|</li>
+                            <li>배송문의(1)</li>
+                            <li>|</li>
+                            <li>기타</li>
+                        </ul>
+                        <button type="button">Q&A 쓰기</button>
+                    </div>
+                </div>
+
+                <div class="QandA_bottom">
+                    <div class="product_qanda">
+                        <div class="qanda_1">
+                            <p>[상품문의]</p>
+                            <span>컬러 옵션 변경 가능할까요?</span>
+                        </div>
+                        <div class="qanda_1_who">
+                            <span>gjstn0***</span>
+                            <p>2023.07.01</p>
+                            <button type="button">yes</button>
+                        </div>
+
+                        <div class="qanda_2">
+                            <p>[상품문의]</p>
+                            <span>스마트 램프 밝기 조절 단계가 어느 정도 되나요?</span>
+                        </div>
+                        <div class="qanda_2_who">
+                            <span>yunjik1***</span>
+                            <p>2023.06.28</p>
+                            <button type="button">yes</button>
+                        </div>
+
+                        <div class="qanda_3">
+                            <p>[재입고 문의]</p>
+                            <span>매트 화이트 색상은 언제쯤 재입고 되나요?</span>
+                        </div>
+                        <div class="qanda_3_who">
+                            <span>dadoki***</span>
+                            <p>2023.06.24</p>
+                            <button type="button">yes</button>
+                        </div>
+
+                        <div class="qanda_4">
+                            <p>[배송문의]</p>
+                            <span>지인에게 선물할 예정인데, 언제쯤 배송 받아볼 수 있을까요?</span>
+                        </div>
+                        <div class="qanda_4_who">
+                            <span>dadoki***</span>
+                            <p>2023.06.24</p>
+                            <button type="button">yes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sand">
+                <div class="delivery">
+                    <div class="de_top">
+                        <h1>배송정보</h1>
+                    </div>
+                    <div class="de_bottom">
+                        <ul>
+                            <li>브랜드 업체발송은 상품설명에 별도로 기입된 브랜드 알림 배송공지 기준으로
+                                출고되고 브랜드마다 개별 배송비가 부여됩니다.
+                            </li>
+                            <li>자체발송은 오후 2시까지 결제된 주문은 당일 출고되며 5만원 이상은 무료배송, 5만원 미만은 3,000원의 배송비가 추가됩니다.
+                            </li>
+                            <li>SPECIAL ORDER, PT 등 예약주문은 상세설명의 출고일정을 확인하시기 바랍니다.</li>
+                            <li>상품설명의 제작기간을 숙지해주시기 바랍니다.</li>
+                            <li> 제주도를 포함한 도서산간 지역은 추가배송비 입금요청이 있을 수 있습니다.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="delivery">
+                    <div class="de_top">
+                        <h1>교환, 환불, A/S 안내</h1>
+                    </div>
+                    <div class="de_bottom">
+                        <ul>
+                            <li>상품 수령일로부터 7일 이내 반품 / 환불 가능합니다.</li>
+                            <li>변심 반품의 경우 왕복배송비를 차감한 금액이 환불되며, 제품 및 포장 상태가 재판매 가능하여야 합니다.</li>
+                            <li>동일상품 또는 동일상품 내 추가금액이 없는 옵션만 교환가능합니다.</li>
+                            <li>상품 불량인 경우는 배송비를 포함한 전액이 환불됩니다.</li>
+                            <li> 출고 이후 환불요청 시 상품 회수 후 처리됩니다.</li>
+                            <li>얼리 등 주문제작상품 / 카메라 / 밀봉포장상품 등은 변심에 따른 반품 / 환불이 불가합니다.</li>
+                            <li>특정브랜드의 상품설명에 별도로 기입된 교환 / 환불 / AS 기준이 우선합니다.</li>
+                            <li>상품의 색상과 이미지는 기기의 해상도에 따라 다르게 보일 수 있습니다.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <section>
+            <div class="tag1">
+                <p class="week">WEEKLY</p>
+                <p class="best">best</p>
+                <a href=""><span>주간 인기베스트 ></span></a>
+            </div>
+        </section>
+
+        <section>
+            <div class="weekly">
+                    <div class="bestone">
+                        <div class="bestone_imgbox">
+                            <img src="img/hot_1.jpg" alt="">
+                            <img src="img/hot_1_hover.jpg" alt="">
+                        </div>
+                        <a href="#">
+                        <div class="bestone_textbox">
+                            <span>HAY</span>
+                            <h4>PC Portable (Ocean Green)</h4>
+                            <p>USB충전 무선 무드램프</p>
+                            <h5>130,000원</h5>
+                        </div>
+                        </a>
+                        <div class="bestone_heart">
+                            <img src="img/icon03.png" alt="">
+                        </div>
+                    </div>
+                    <div class="bestone">
+                        <div class="bestone_imgbox">
+                            <img src="img/hot_5.jpg" alt="">
+                            <img src="img/hot_5_hover.jpg" alt="">
+                        </div>
+                        <a href="#">
+                        <div class="bestone_textbox">
+                            <span>Artemide</span>
+                            <h4>Alfa</h4>
+                            <p>섬세함이 넘치는 클래식 테이블 램프</p>
+                            <h5>1,530,000원</h5>
+                        </div>
+                        </a>
+                        <div class="bestone_heart">
+                            <img src="img/icon03.png" alt="">
+                        </div>
+                    </div>
+    
+                <div class="bestone">
+                    <div class="bestone_imgbox">
+                        <img src="img/hot_3.jpg" alt="">
+                        <img src="img/hot_3_hover.jpg" alt="">
+                    </div>
+                    <a href="#">
+                    <div class="bestone_textbox">
+                        <span>verpan</span>
+                        <h4>VP Globe</h4>
+                        <p>물방울의 미래적인 조각 디자인 조명</p>
+                        <h5>3,420,000원</h5>
+                    </div>
+                    </a>
+                    <div class="bestone_heart">
+                        <img src="img/icon03.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="enter"></div>
+
+        <section id="top">
+        <a href="#"><img src="img/top.png" alt=""></a>
+        </section>
+
+    <footer>
+        <div class="footerbox">
+            <div class="f0">
+                <img src="img/logo.png" alt="logo2">
+            </div>
+            <div class="f1">
+                <div class="bar">
+                    <ul>
+                        <li><a href="main.html">HOME</a></li>
+                        <li><a href="our.html">OUR STORY</a></li>
+                        <li><a href="brandweek.html">BRAND WEEK</a></li>
+                        <li><a href="louis.html">BRAND COLLECTION</a></li>
+                        <li><a href="#concept">CONCEPT IDEA</a></li>
+                    </ul>
+                </div>
+                <div class="call">
+                    <h1>CUSTOMER CENTER</h1>
+                    <h2>1855-2023</h2>
+                </div>
+                <div class="copy">
+                    <p>평일 am 10:00 - pm 06:00 (점심시간 12:00 - 13:00) <br>
+                        주말 AM 11:00 - PM 03:00 <br>
+                        (*주말은 매장 안내 및 서비스 오류 상담만 가능 합니다. / 공휴일 휴무) <br>
+                        <span>©Yunhwa Choi All rights reserved</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

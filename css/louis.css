@@ -1,0 +1,211 @@
+@charset "utf-8";
+
+
+/*Pretendard*/
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-style: normal;
+}
+
+.tag1 {
+    width: 500px;
+    height: 150px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.tag1>p {
+    font-family: 'Kaisei Opti', serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.tag1>.best {
+    color: orangered;
+    margin-top: -27px;
+}
+
+.line {
+    width: 1300px;
+    height: auto;
+    border-bottom: 3px solid #000;
+    margin: 0 auto;
+    padding: 10px 0;
+    font-family: 'pretendard';
+    font-weight: bold;
+    margin-top: 60px;
+    font-size: 25px;
+}
+
+.brand_list {
+    width: 1300px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.brand_list ul {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'pretendard';
+}
+
+.brand_list ul li {
+    margin-right: 50px;
+    font-size: 16px;
+    color: #494949;
+    cursor: pointer;
+}
+
+.brand_list ul li:nth-of-type(1) {
+    color: #000000;
+    font-weight: bold;
+}
+
+.brand_list ul li:hover {
+    color: #000000;
+    font-weight: bold;
+}
+
+.banner {
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+}
+
+.banner .banner_text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    padding: 50px;
+    font-family: 'pretendard';
+}
+
+.banner .banner_text h2 {
+    margin: 10px 0;
+    font-size: 40px;
+}
+
+.banner .banner_text span {
+    line-height: 26px;
+    margin-top: 5px;
+}
+
+.wrap {
+    width: 1300px;
+    height: 4100px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.louis_one {
+    width: 1300px;
+    height: 500px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.louis_one_img {
+    position: relative;
+}
+
+.louis_one_img h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 70px;
+    font-family: 'Kaisei Opti', serif;
+    padding: 30px 50px;
+    color: white;
+}
+
+.louis_one_text {
+    text-align: center;
+    font-family: 'pretendard';
+}
+
+.louis_one_text span {
+    font-size: 14px;
+}
+
+.louis_one_text h5 {
+    margin: 3px 0;
+}
+
+.louis_two {
+    width: 1300px;
+    height: 500px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.louis_three {
+    width: 1300px;
+    height: 500px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.louis_idea {
+    width: 1920px;
+    margin: 0 auto;
+    margin-top: 120px;
+    position: relative;
+}
+
+.idea_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+.idea_text h1 {
+    font-size: 60px;
+    font-family: 'Kaisei Opti', serif;
+
+}
+
+.idea_text h3 {
+    font-size: 40px;
+    font-family: 'pretendard';
+    font-weight: 400;
+}
+
+.idea_text button {
+    font-size: 16px;
+    font-family: 'pretendard';
+    border: none;
+    padding: 20px 25px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.idea_text button:hover {
+    color: #fff;
+    background-color: rgb(226, 53, 0);
+}
+
+.enter {
+    width: 100%;
+    height: 200px;
+}
+
+#top {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+}
+
+#top img {
+    width: 80px;
+}

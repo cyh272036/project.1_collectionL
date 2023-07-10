@@ -1,0 +1,949 @@
+@charset "utf-8";
+
+/*Pretendard*/
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-style: normal;
+}
+
+/*Playfair Display*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+#main {
+    width: 1600px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#main img[alt="left"] {
+    height: 500px;
+}
+
+#main img[alt="right"] {
+    height: 500px;
+}
+
+.main_center .maintext {
+    width: 660px;
+    height: 210px;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.main_center .maintext p {
+    font-family: 'Kaisei Opti', serif;
+    font-size: 75px;
+    font-weight: 500;
+    line-height: 68px;
+}
+
+.main_center .maintext p span{
+    color: orangered;
+}
+
+.main_center .mainicon {
+    width: 500px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 75px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#main .mainicon img {
+    width: 100px;
+    margin-left: 70px;
+}
+
+.mainicon .shop {
+    font-family: 'Kaisei Opti', serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/* main */
+
+
+#story {
+    width: 1300px;
+    height: 950px;
+    margin: 0 auto;
+}
+
+
+#story>.tag1 {
+    margin-top: 120px;
+}
+
+#story>.tag1>p {
+    text-align: center;
+    font-family: 'Kaisei Opti', serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#story>.tag1>.story {
+    color: orangered;
+    margin-top: -30px;
+    margin-left: 5px;
+}
+
+#story>.container {
+    width: 1300px;
+    height: 700px;
+    margin-top: 90px;
+    position: absolute;
+}
+
+#story>.container>img[alt="our"] {
+    height: 700px;
+    position: relative;
+    left: 425px;
+}
+
+#story>.container>.textarea>a>h2 {
+    font-family: 'Kaisei Opti', serif;
+    font-size: 85px;
+    font-weight: 800;
+    line-height: 83px;
+    position: absolute;
+    top: 360px;
+    background: linear-gradient(-90deg, #ffffff 55%, #141414 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+    mix-blend-mode: soft-light;
+}
+
+
+#story>.container>.textarea>a>p {
+    font-family: 'Pretendard';
+    color: black;
+    font-weight: lighter;
+    line-height: 23px;
+    position: absolute;
+    bottom: 85px;
+    left: 10px;
+}
+
+
+#week {
+    width: 1300px;
+    height: 950px;
+    margin: 0 auto;
+}
+
+
+#week>.tag2 {
+    margin-top: 100px;
+}
+
+#week>.tag2 {
+    text-align: center;
+    font-family: 'Kaisei Opti', serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#week>.tag2>.week {
+    color: orangered;
+    margin-top: -25px;
+}
+
+.slider {
+    margin-top: 110px;
+    width: 1010px;
+    height: 600px;
+    float: left;
+}
+
+.slider>img {
+    width: 450px;
+}
+
+#week>.textarea2 {
+    float: right;
+    margin-top: -605px;
+}
+
+#week>.textarea2>h1 {
+    font-family: 'Pretendard';
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 35px;
+}
+
+#week>.textarea2>h1>span {
+    font-family: 'Pretendard';
+    font-weight: 700;
+    font-size: 27px;
+}
+
+#week>.textarea2>p {
+    font-family: 'Pretendard';
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 17px;
+    line-height: 23px;
+}
+
+#week>.circle {
+    float: right;
+    margin-top: -120px;
+}
+
+#week>.circle>a>img {
+    width: 250px;
+    height: 250px;
+}
+
+
+#collection {
+    width: 1300px;
+    height: 2350px;
+    margin: 0 auto;
+}
+
+
+#collection>.tag3{
+    margin-top: 100px;
+}
+
+#collection>.tag3>p {
+    text-align: center;
+    font-family: 'Kaisei Opti', serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#collection>.tag3>.collection {
+    color: orangered;
+    margin-top: -20px;
+}
+
+.brandbox>.brand {
+    margin-top: 70px;
+    float: left;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.brandbox>.brand>.brand_img_one>img[alt="brandone"] {
+    width: 240px;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.brandbox>.brand>.brand_img>img {
+    width: 240px;
+    border-radius: 50%;
+    opacity: 0.3;
+}
+
+
+.brandbox>.brand>.brand_img_one>img {
+    width: 240px;
+    border-radius: 50%;
+    opacity: 0.3;
+}
+
+
+.brandbox>.brand>.brand_img>img:hover {
+    opacity: 1;
+}
+
+.brandbox>.brand>p {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Pretendard';
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+#wrap {
+    width: 1300px;
+    height: 2250px;
+    margin: 0 auto;
+}
+
+.first {
+    width: 1300px;
+    height: 480px;
+}
+
+.one {
+    width: 640px;
+    height: 440px;
+    background-color: gold;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    bottom: 40px;
+}
+
+.one>a>img {
+    height: 440px;
+    transition: all 0.35s ease-in-out;
+    transform: scale(1);
+}
+
+.one>a>.textbox {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 640px;
+    height: 80px;
+    position: absolute;
+    color: #fff;
+    bottom: -100px;
+    transition: all 0.35s ease-in-out;
+    font-family: Pretendard;
+    padding: 17px 15px;
+}
+
+.one>a>.textbox>p {
+    margin-top: 5px;
+    font-weight: 500;
+} 
+
+.one:hover .textbox {
+    opacity: 1;
+    bottom: 0;
+}
+
+.two {
+    width: 310px;
+    height: 440px;
+    background-color: yellowgreen;
+    float: left;
+    margin: 0 18px;
+    position: relative;
+    overflow: hidden;
+    bottom: 40px;
+}
+
+.two>a>img[alt="b2"] {
+    transition: all 0.35s ease-in-out;
+    transform: scale(1);
+    height: 440px;
+}
+
+.two>a>.textbox2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 310px;
+    height: 80px;
+    position: absolute;
+    color: #fff;
+    bottom: -100px;
+    transition: all 0.35s ease-in-out;
+    font-family: Pretendard;
+    padding: 17px 15px;
+}
+
+.two>a>.textbox2>p {
+    margin-top: 5px;
+    font-weight: 500;
+} 
+
+
+.two:hover .textbox2 {
+    opacity: 1;
+    bottom: 0;
+}
+
+.three {
+    width: 310px;
+    height: 440px;
+    background-color: green;
+    float: right;
+    position: relative;
+    overflow: hidden;
+    bottom: 40px;
+}
+
+.three>a>img[alt="b3"] {
+    height: 440px;
+    transition: all 0.35s ease-in-out;
+    transform: scale(1);
+
+}
+
+.three>a>.textbox3 {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 310px;
+    height: 80px;
+    position: absolute;
+    color: #fff;
+    transition: all 0.35s ease-in-out;
+    bottom: -100px;
+    font-family: Pretendard;
+    padding: 17px 15px;
+}
+
+.three>a>.textbox3>p {
+    margin-top: 5px;
+    font-weight: 500;
+} 
+
+.three:hover .textbox3 {
+    opacity: 1;
+    bottom: 0;
+}
+
+.second {
+    width: 1300px;
+    height: 940px;
+    margin-top: 40px;
+}
+
+.four {
+    width: 310px;
+    height: 440px;
+    background-color: darkgoldenrod;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.four>a>img[alt="b4"] {
+    height: 440px;
+    transition: all 0.35s ease-in-out;
+    transform: scale(1);
+}
+
+.four>a>.textbox4 {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 310px;
+    height: 80px;
+    position: absolute;
+    color: #fff;
+    transition: all 0.35s ease-in-out;
+    bottom: -100px;
+    font-family: Pretendard;
+    padding: 17px 15px;
+}
+
+.four>a>.textbox4>p {
+    margin-top: 5px;
+    font-weight: 500;
+} 
+
+
+.four:hover .textbox4 {
+    opacity: 1;
+    bottom: 0;
+}
+
+.five {
+    width: 310px;
+    height: 440px;
+    background-color: rgb(255, 183, 0);
+    float: left;
+    margin-left: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.five>a>img[alt="b5"] {
+    height: 440px;
+    transition: all 0.35s ease-in-out;
+    transform: scale(1);
+}
+
+.five>a>.textbox5 {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 310px;
+    height: 80px;
+    position: absolute;
+    color: #fff;
+    transition: all 0.35s ease-in-out;
+    bottom: -100px;
+    font-family: Pretendard;
+    padding: 17px 15px;
+}
+
+.five>a>.textbox5>p {
+    margin-top: 5px;
+    font-weight: 500;
+} 
+
+.five:hover .textbox5 {
+    opacity: 1;
+    bottom: 0;
+}
+
+.six {
+    width: 640px;
+    height: 900px;
+    background-color: hotpink;
+    float: right;
+    position: relative;
+    overflow: hidden;
+}
+
+.six>a>img[alt="b6"] {
+    width: 640px;
+    transition: all 0.35s ease-in-out;
+    transform: scale(1);
+}
+
+.six>a>.textbox6 {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 640px;
+    height: 80px;
+    position: absolute;
+    color: #fff;
+    transition: all 0.35s ease-in-out;
+    bottom: -100px;
+    font-family: Pretendard;
+    padding: 17px 15px;
+}
+
+.six>a>.textbox6>p {
+    margin-top: 5px;
+    font-weight: 500;
+} 
+
+
+.six:hover .textbox6 {
+    opacity: 1;
+    bottom: 0;
+}
+
+.seven {
+    width: 310px;
+    height: 440px;
+    background-color: red;
+    float: left;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.seven>a>img[alt="b7"] {
+    height: 440px;
+    transition: all 0.35s ease-in-out;
+    transform: scale(1);
+}
+
+.seven>a>.textbox7 {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 310px;
+    height: 80px;
+    position: absolute;
+    color: #fff;
+    transition: all 0.35s ease-in-out;
+    bottom: -100px;
+    font-family: Pretendard;
+    padding: 17px 15px;
+}
+
+.seven>a>.textbox7>p {
+    margin-top: 5px;
+    font-weight: 500;
+} 
+
+.seven:hover .textbox7 {
+    opacity: 1;
+    bottom: 0;
+}
+
+.eight {
+    width: 310px;
+    height: 440px;
+    background-color: rgb(72, 255, 0);
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.eight>a>img[alt="b8"] {
+    height: 440px;
+    transition: all 0.35s ease-in-out;
+    transform: scale(1);
+}
+
+.eight>a>.textbox8 {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 310px;
+    height: 80px;
+    position: absolute;
+    color: #fff;
+    transition: all 0.35s ease-in-out;
+    bottom: -100px;
+    font-family: Pretendard;
+    padding: 17px 15px;
+}
+
+.eight>a>.textbox8>p {
+    margin-top: 5px;
+    font-weight: 500;
+} 
+
+
+.eight:hover .textbox8 {
+    opacity: 1;
+    bottom: 0;
+}
+
+.third {
+    width: 1300px;
+    height: 480px;
+    margin-top: 40px;
+}
+
+.nine {
+    width: 640px;
+    height: 440px;
+    background-color: orange;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    top: 40px;
+}
+
+.nine>a>img[alt="b9"] {
+    height: 440px;
+    transition: all 0.35s ease-in-out;
+    transform: scale(1);
+}
+
+.nine>a>.textbox9 {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 640px;
+    height: 80px;
+    position: absolute;
+    color: #fff;
+    bottom: -100px;
+    transition: all 0.35s ease-in-out;
+    font-family: Pretendard;
+    padding: 17px 15px;
+}
+
+.nine>a>.textbox9>p {
+    margin-top: 5px;
+    font-weight: 500;
+} 
+
+
+.nine:hover .textbox9 {
+    opacity: 1;
+    bottom: 0;
+}
+
+.ten {
+    width: 310px;
+    height: 440px;
+    background-color: blueviolet;
+    float: left;
+    margin: 0 18px;
+    position: relative;
+    overflow: hidden;
+    top: 40px;
+}
+
+.ten>a>img[alt="b10"] {
+    height: 440px;
+    transition: all 0.35s ease-in-out;
+    transform: scale(1);
+}
+
+.ten>a>.textbox10 {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 310px;
+    height: 80px;
+    position: absolute;
+    color: #fff;
+    transition: all 0.35s ease-in-out;
+    bottom: -100px;
+    font-family: 'Pretendard';
+    padding: 17px 15px;
+}
+
+.ten>a>.textbox10>p {
+    margin-top: 5px;
+    font-weight: 500;
+} 
+
+
+.ten:hover .textbox10 {
+    opacity: 1;
+    bottom: 0;
+}
+
+.eleven {
+    width: 310px;
+    height: 440px;
+    background-color: darksalmon;
+    float: right;
+    position: relative;
+    overflow: hidden;
+    top: 40px;
+}
+
+.eleven>a>img[alt="b11"] {
+    height: 440px;
+    transition: all 0.35s ease-in-out;
+    transform: scale(1);
+}
+
+.eleven>a>.textbox11 {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 310px;
+    height: 80px;
+    position: absolute;
+    color: #fff;
+    transition: all 0.35s ease-in-out;
+    bottom: -100px;
+    font-family: Pretendard;
+    padding: 17px 15px;
+}
+
+.eleven>a>.textbox11>p {
+    margin-top: 5px;
+    font-weight: 500;
+} 
+
+.eleven:hover .textbox11 {
+    opacity: 1;
+    bottom: 0;
+}
+
+
+#concept {
+width: 1300px;
+height: 1200px;
+margin: 0 auto;
+margin-top: 80px;
+}
+
+
+#concept>.tag4 {
+margin-top: 120px;
+}
+
+#concept>.tag4>p {
+text-align: center;
+font-family: 'Kaisei Opti', serif;
+font-size: 50px;
+font-weight: 600;
+}
+
+#concept>.tag4>.idea {
+color: orangered;
+margin-top: -20px;
+margin-left: 5px;
+}
+
+#concept>.color>img {
+height: 500px;
+margin-top: 60px;
+float: left;
+}
+
+#concept>.color>.textcolor {
+height: 500px;
+width: 400px;
+float: right;
+margin-top: 60px;
+}
+
+#concept>.color>.textcolor>h1 {
+font-family: 'Pretendard';
+font-weight: bold;
+margin-top: 90px;
+margin-bottom: 20px;
+padding-left: 40px;
+font-size: 30px;
+}
+
+#concept>.color>.textcolor>p {
+font-family: 'Pretendard';
+font-size: 17px;
+line-height: 25px;
+padding-left: 40px;
+}
+
+#concept>.color>.textcolor>input {
+    border: none;
+    padding: 15px 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: 'Pretendard';
+}
+    
+
+#concept>.color>.textcolor>input:hover {
+    background-color: #222;
+    color: white;
+}
+
+
+#concept>.idea>.ideaimg {
+height: 500px;
+width: 895px;
+float: right;
+margin-top: 90px;
+}
+
+#concept>.idea>.ideaimg>img {
+float: right;
+width: 447px;
+}
+
+#concept>.idea>.ideatext {
+height: 200px;
+width: 400px;
+float: right;
+}
+
+#concept>.idea>.ideatext>h1 {
+font-family: 'Pretendard';
+font-size: 30px;
+margin-top: 112px;
+margin-bottom: 25px;
+padding-right: 40px;
+text-align: right;
+font-weight: 800;
+}
+
+#concept>.idea>.ideatext>p {
+font-family: 'Pretendard';
+font-size: 17px;
+line-height: 25px;
+padding-right: 40px;
+text-align: right;
+margin-bottom: 15px;
+}
+
+#concept>.idea>.ideatext>input {
+border: none;
+padding: 15px 20px;
+margin-left: 254px;
+margin-top: 11px;
+font-size: 15px;
+font-family: 'Pretendard';
+}
+
+
+#concept>.idea>.ideatext>input:hover {
+background-color: #222;
+color: white;
+}
+
+
+footer {
+    width: 100%;
+    border-top: 1px solid #1a1a1a;
+    margin-top: 100px;
+}
+
+.footerbox {
+    width: 1300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+
+.footerbox  > .f0 {
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin-top: 80px;
+    margin-left: 80px;
+
+}
+
+.footerbox  > .f0 > img[alt="logo2"]{
+    width: 170px;
+    margin-left: 15px;
+}
+
+.footerbox > .f1 {
+    width: 700px;
+    height: 150px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 70px;
+}
+
+.footerbox > .f1 > .bar {
+    width: 660px;
+    height: 40px;
+}
+
+.footerbox > .f1 > .bar > ul {
+    width: 950px;
+    float: left;
+    margin-top: 10px;
+}
+
+.footerbox > .f1 > .bar > ul > li{
+    float: left;
+    font-family: 'Pretendard';
+    margin: 0 20px 0 0;
+    color: #8a8a8a;
+}
+
+.footerbox > .f1 > .bar > ul > li > a:hover{
+    font-weight: bold;
+}
+
+.footerbox > .f1 > .call {
+    width: 190px;
+    height: 110px;
+    float: left;
+}
+
+.footerbox > .f1 > .call > h1 {
+    font-size: 19px;
+    margin-top: 20px;
+}
+
+.footerbox > .f1 > .call > h2 {
+    margin-top: -10px;
+    font-size: 36px;
+}
+
+.footerbox > .f1 > .copy {
+    width: 490px;
+    height: 110px;
+    float: left;
+    margin-left: 20px;
+    padding-left: 35px;
+}
+
+.footerbox > .f1 > .copy > p {
+    font-family: 'Pretendard';
+    margin-top: 20px;
+    line-height: 23px;
+}
+
+.footerbox > .f1 > .copy > p > span {
+    color: #2b2b2b;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.enter{
+    width: 100%;
+    height: 200px;
+}
+
+#top {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+}
+
+#top img{
+    width: 80px;
+}
+

@@ -1,0 +1,1316 @@
+@charset "utf-8";
+
+
+/*Pretendard*/
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-style: normal;
+}
+
+/*Playfair Display*/
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap'); */
+
+
+section>.tag1>p {
+    text-align: center;
+    font-family: 'Kaisei Opti', serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+section>.tag1>.radroom {
+    color: orangered;
+    margin-top: -27px;
+}
+
+
+section #product {
+    width: 1300px;
+    height: 750px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+section #product .brand-home {
+    width: 580px;
+    height: 80px;
+    padding-top: 6px;
+    margin-left: 43px;
+}
+
+section #product .brand-home .radi {
+    width: 70px;
+    height: 70px;
+    float: left;
+    border: 1px solid #d4d4d4;
+}
+
+section #product .brand-home .radi img {
+    width: 100%
+}
+
+section #product .brand-home .radi-box {
+    width: 450px;
+    height: 70px;
+    margin-left: 90px;
+    font-family: 'Pretendard';
+    padding-top: 2px;
+}
+
+section #product .brand-home h1 {
+    font-size: 20px;
+    margin-bottom: -2px;
+}
+
+section #product .brand-home span {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+section #product .brand-home button {
+    font-size: 9px;
+    padding: 4px 7px;
+    margin-top: 7px;
+    font-family: 'Pretendard';
+    font-weight: 300;
+    border: 1px solid #aaaaaa;
+    border-radius: 3px;
+    background: #ffffff;
+}
+
+section #product .brand-home button:hover {
+    color: #fff;
+    background: #4e4e4e;
+}
+
+section #product .product-box {
+    width: 1250px;
+    height: 550px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+section #product .product-box .brand-img {
+    width: 580px;
+    height: 500px;
+    float: left;
+    margin: 0;
+    position: relative;
+    margin-left: 15px;
+}
+
+section #product .product-box .brand-img-main {
+    width: 465px;
+    height: 465px;
+    background-color: skyblue;
+}
+
+section #product .product-box .brand-img-main img {
+    width: 100%;
+}
+
+section #product .product-box .brand-img-slide {
+    width: 80px;
+    height: 400px;
+    margin: 0 auto;
+    float: right;
+    position: absolute;
+    right: 25px;
+    top: 0;
+
+}
+
+section #product .product-box .brand-img-slide img {
+    width: 80px;
+    height: 80px;
+}
+
+section #product .product-box .brand-text {
+    width: 580px;
+    height: 520px;
+    float: right;
+    margin-right: 15px;
+}
+
+
+section #product .brand-text .box1 {
+    width: 580px;
+    height: 120px;
+    border-top: 2px solid black;
+}
+
+section #product .brand-text .box1 .head {
+    width: 400px;
+    height: 140px;
+    float: left;
+}
+
+section #product .brand-text .box1 .head h3 {
+    font-family: 'Pretendard';
+    font-size: 20px;
+    color: black;
+    margin-top: 15px;
+}
+
+section #product .brand-text .box1 .head pre {
+    font-family: 'Pretendard';
+    font-size: 13px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+section #product .brand-text .box1 .head a p {
+    font-family: 'Pretendard';
+    font-size: 13px;
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: underline;
+    color: black;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+section #product .brand-text .box1 .head p {
+    font-family: 'Pretendard';
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: black;
+    margin-bottom: -5px;
+}
+
+section #product .brand-text .box1 .head span {
+    font-family: 'Pretendard';
+    font-size: 12px;
+    color: rgb(121, 121, 121);
+}
+
+section #product .brand-text .box1 .sidehead {
+    width: 180px;
+    height: 140px;
+    float: right;
+    position: relative;
+}
+
+section #product .brand-text .box1 .sidehead .heart {
+    width: 50px;
+    height: 50px;
+    float: right;
+    border-left: 1px solid #535353;
+}
+
+section #product .brand-text .box1 .sidehead .heart img {
+    width: 100%;
+    margin-top: 2px;
+}
+
+section #product .brand-text .box1 .sidehead button {
+    font-size: 12px;
+    border: none;
+    padding: 10px 15px;
+    background-color: black;
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    width: 100px;
+    font-family: 'Pretendard';
+}
+
+section #product .brand-text .box1 .sidehead button:hover {
+    color: #ffffff;
+    background-color: rgb(216, 58, 0);
+}
+
+section #product .brand-text .box2 {
+    width: 580px;
+    height: 70px;
+    margin-top: 30px;
+    border-top: 1px solid #424242;
+    border-bottom: 1px solid #424242;
+}
+
+section #product .brand-text .for {
+    width: 200px;
+    height: 30px;
+    margin: 20px 0;
+    float: left;
+}
+
+section #product .brand-text .for p {
+    font-family: 'Pretendard';
+    padding-top: 5px;
+    text-align: left;
+}
+
+section #product .brand-text .for p span {
+    font-family: 'Pretendard';
+    font-weight: bold;
+}
+
+section #product .brand-text .fortwo {
+    width: 200px;
+    height: 30px;
+    margin: 20px 0;
+    float: right;
+}
+
+section #product .brand-text .fortwo p {
+    font-family: 'Pretendard';
+    text-align: right;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+section #product .brand-text .fortwo p span {
+    font-family: 'Pretendard';
+    color: #535353;
+    margin-right: 10px;
+}
+
+section #product .brand-text .box3 {
+    width: 580px;
+    height: 120px;
+    padding: 5px 0;
+    margin-top: 13px;
+}
+
+section #product .brand-text .box3 .gb {
+    width: 150px;
+    height: 30px;
+}
+
+section #product .brand-text .box3 h5 {
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+section #product .brand-text .box3 table {
+    width: 510px;
+    height: 30px;
+    font-family: 'Pretendard';
+}
+
+section #product .brand-text .box3 table th {
+    width: 80px;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 10px 0;
+    text-align: left;
+}
+
+section #product .brand-text .box3 table td {
+    font-size: 13px;
+}
+
+section #product .brand-text .box3 table td span {
+    color:  rgb(243, 65, 0);
+}
+
+section #product .brand-text .box4 {
+    width: 580px;
+    height: 120px;
+    margin: 15px 0;
+    padding-top: 3px;
+    border-top: 1px solid #424242;
+}
+
+section #product .brand-text .box4 select {
+    width: 580px;
+    height: 40px;
+    margin-top: 10px;
+    border: 1px solid #5f5f5f;
+    font-family: 'Pretendard';
+}
+
+section #product .brand-text .box5 {
+    width: 580px;
+    height: 50px;
+    padding-bottom: 16px;
+}
+
+section #product .brand-text button {
+    display: inline-block;
+    width: 287px;
+    height: 50px;
+    border: none;
+    margin: 0 auto;
+    font-family: 'Pretendard';
+    cursor: pointer;
+    margin-top: -25px;
+}
+
+section #product .brand-text button:hover {
+    background-color: #3d3d3d;
+    color: white;
+}
+
+section #product .brand-text button[name="go"] {
+    display: inline-block;
+    width: 287px;
+    height: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+section #product .brand-text button[name="go"]:hover {
+    background-color: rgb(243, 65, 0);
+    color: white;
+}
+
+#info nav {
+    width: 1300px;
+    background-color: #fcffde;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#info ul {
+    width: 1300px;
+}
+
+#info ul li {
+   margin: 0;
+}
+
+#info ul li {
+    font-size: 16px;
+    font-family: 'Pretendard';
+    font-weight: 500;
+    float: left;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 320px;
+    height: 60px;
+    border: 1px solid #888;
+    padding: 18px;
+    margin: 0;
+    cursor: pointer;
+}
+
+#info ul li:hover {
+    color: white;
+    text-align: center;
+    background-color: rgb(24, 24, 24);
+}
+
+.wrap .infomation {
+    width: 850px;
+    height: 10850px;
+    margin: 0 auto;
+    position: relative;
+    z-index: -1;
+}
+
+.wrap .review {
+    width: 850px;
+    height: 1000px;
+    margin: 0 auto;
+    padding-top: 60px;
+    display: none;
+}
+
+.wrap .QandA {
+    width: 850px;
+    height: 650px;
+    margin: 0 auto;
+    display: none;
+}
+
+.wrap .sand {
+    width: 850px;
+    height: 950px;
+    margin: 0 auto;
+    display: none;
+}
+
+
+.wrap .infomation img{
+    width: 100%;
+    margin-top: 60px;
+}
+
+.wrap .infomation .clasic{
+    width: 850px;
+    height: 630px;
+    margin-top: 60px;
+}
+
+
+.wrap .infomation .clasic .left{
+    width: 450px;
+    height: 630px;
+    float: left;
+    position: relative;
+}
+
+.wrap .infomation .clasic .left img{
+    position: absolute;
+    margin-top: 0;
+    top: 0;
+}
+
+.wrap .infomation .clasic .right{
+    width: 350px;
+    height: 240px;
+    float: right;
+    position: relative;
+}
+
+.wrap .infomation .clasic .right img{
+    position: absolute;
+    margin-top: 0;
+    top: 0;
+}
+
+.wrap .infomation .clasic .righttwo {
+    width: 350px;
+    height: 240px;
+    float: right;
+    position: relative;
+    margin-top: 150px;
+}
+
+.wrap .infomation .clasic .righttwo h2{
+    font-family: 'Pretendard';
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 34px;
+}
+
+.wrap .infomation .clasic .righttwo h2 span{
+    font-family: 'Pretendard';
+    font-weight: 600;
+}
+
+.infomation .clasic .righttwo p{
+    font-family: 'Pretendard';
+    line-height: 23px;
+    margin-top: 27px;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+.wrap .infomation .mordern{
+    width: 850px;
+    height: 1750px;
+    margin-top: 60px;
+    position: relative;
+}
+
+.wrap .infomation .mordern img{
+    margin: 0;
+}
+
+.wrap .infomation .mordern .mordern_textbox{
+    width: 400px;
+    height: 400px;
+    margin-top: 240px;
+}
+
+.wrap .infomation .mordern .mordern_textbox h2{
+    font-family: 'Pretendard';
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.wrap .infomation .mordern .mordern_textbox h2 span{
+    font-family: 'Pretendard';
+    font-weight: 600;
+}
+
+.wrap .infomation .mordern .mordern_textbox p{
+    font-family: 'Pretendard';
+    line-height: 26px;
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+.wrap .infomation .mordern .mordern_textbox .mordern_imgbox{
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.wrap .infomation .mordern .mordern_textbox .mordern_imgbox img{
+    width: 500px;
+}
+
+.wrap .infomation .object{
+    width: 100%;
+    height: 1900px;
+    margin-top: 60px;
+    position: relative;
+}
+
+.wrap .infomation .object img{
+    margin-top: 0;
+}
+
+.wrap .infomation .object .object_textbox .object_textbox_head{
+    width: 260px;
+    height: 130px;
+    margin-top: 95px;
+}
+
+.wrap .infomation .object .object_textbox .object_textbox_head h2{
+    font-family: 'Pretendard';
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.wrap .infomation .object .object_textbox .object_textbox_head h2 span{
+    font-family: 'Pretendard';
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.wrap .infomation .object .object_textbox .object_textbox_second{
+    width: 550px;
+    height: 150px;
+    position: absolute;
+    right: 0;
+    bottom: 512px;
+}
+
+
+.wrap .infomation .object .object_textbox p{
+    font-family: 'Pretendard';
+    line-height: 23px;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+.wrap .infomation .object .object_imgbox {
+    width: 550px;
+    height: 150px;
+    position: absolute;
+    right: 0;
+    bottom: 330px;
+}
+
+.wrap .infomation .color{
+    width: 100%;
+    height: 1850px;
+    margin-top: 60px;
+    position: relative;
+}
+
+.wrap .infomation .color img{
+    margin-top: 0;
+}
+
+.wrap .infomation .color .color_textbox{
+    width: 400px;
+    height: 280px;
+    position: absolute;
+    margin-top: 160px;
+}
+
+.wrap .infomation .color .color_textbox h2{
+    font-family: 'Pretendard';
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.wrap .infomation .color .color_textbox p{
+    font-family: 'Pretendard';
+    line-height: 23px;
+    margin-top: 27px;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+.wrap .infomation .color .color_imgbox {
+    width: 500px;
+    position: absolute;
+    right: 0;
+    margin-top: 60px;
+}
+
+.wrap .infomation .color .color_textbox2 {
+    width: 500px;
+    position: absolute;
+    right: 0;
+    bottom: 3px;
+}
+
+.wrap .infomation .color .color_textbox2 p{
+    font-family: 'Pretendard';
+    line-height: 25px;
+    font-size: 17px;
+    font-weight: 200;
+    margin-left: 100px;
+}
+
+.wrap .infomation .color_second{
+    width: 100%;
+    height: 2850px;
+    position: relative;
+    margin-top: 60px;
+}
+
+.wrap .infomation .color_second img[alt="moonpota"]{
+    margin-top: 0px;
+}
+
+.wrap .infomation .color_second img[alt="moonpotb"]{
+    margin-top: 90px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.wrap .infomation .color_second img[alt="moonpotc"]{
+    margin-top: 90px;
+}
+
+.wrap .infomation .color_second img[alt="moonpotd"]{
+    margin-top: 90px;
+}
+
+.wrap .review {
+    width: 850px;
+    height: 1000px;
+    margin-top: 230px;
+}
+
+.wrap .review .review_top {
+    width: 850px;
+    height: 70px;
+    border-bottom: 4px solid #000;
+}
+
+.wrap .review .review_top h1{
+    font-family: 'Pretendard';
+    margin-bottom: 50px;
+}
+
+.wrap .review .review_top h1 span{
+    font-size: 17px;
+    color: rgb(221, 59, 0);
+}
+
+.wrap .review .review_middle {
+    width: 100%;
+    height: 135px;
+    margin-top: 40px;
+}
+
+.wrap .review .review_middle .review_imgbox_slide{
+    float: left;
+}
+
+.wrap .review .review_middle .review_imgbox_slide img{
+    height: 135px;
+    margin-left: 8px;
+}
+
+.wrap .review .review_middle .review_imgbox img{
+    width: 135px;
+}
+
+.wrap .review .review_middle .review_imgbox_slide2{
+    float: right;
+    margin-top: -138px;
+}
+
+.wrap .review .review_middle .review_imgbox_slide2 img{
+    height: 135px;
+}
+
+
+.wrap .review .review_bottom {
+    margin-top: 50px;
+    width: 100%;
+    height: 560px;
+}
+
+.wrap .review .review_bottom .review_voise1{
+    border-bottom: 1px solid #000;
+    padding: 15px;
+    font-family: 'Pretendard';
+    position: relative;
+}
+
+.wrap .review .review_bottom .review_voise1 p{
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 7px;
+}
+
+.wrap .review .review_bottom .review_voise1 p span{
+    font-size: 12px;
+    color: #000;
+}
+
+.wrap .review .review_bottom .review_voise1 span{
+    font-size: 13px;
+    color: #3b3b3b;
+}
+
+.wrap .review .review_bottom .review_voise1 img{
+    width: 70px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 10px;
+}
+
+.wrap .review .review_bottom .review_voise2{
+    border-bottom: 1px solid #000;
+    padding: 15px;
+    font-family: 'Pretendard';
+    margin-top: 10px;
+}
+
+.wrap .review .review_bottom .review_voise2 p{
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.wrap .review .review_bottom .review_voise2 p span{
+    font-size: 12px;
+    color: #000;
+}
+
+.wrap .review .review_bottom .review_voise2 span{
+    font-size: 13px;
+    color: #3b3b3b;
+}
+
+.wrap .review .review_bottom .review_voise3{
+    border-bottom: 1px solid #000;
+    padding: 15px;
+    font-family: 'Pretendard';
+    position: relative;
+    margin-top: 10px;
+}
+
+.wrap .review .review_bottom .review_voise3 p{
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.wrap .review .review_bottom .review_voise3 p span{
+    font-size: 12px;
+    color: #000;
+}
+
+.wrap .review .review_bottom .review_voise3 span{
+    font-size: 13px;
+    color: #3b3b3b;
+}
+
+.wrap .review .review_bottom .review_voise3 img{
+    width: 70px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 8px;
+}
+
+.wrap .review .review_bottom .review_voise4{
+    border-bottom: 1px solid #000;
+    padding: 15px;
+    font-family: 'Pretendard';
+    position: relative;
+    margin-top: 10px;
+}
+
+.wrap .review .review_bottom .review_voise4 p{
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.wrap .review .review_bottom .review_voise4 p span{
+    font-size: 12px;
+    color: #000;
+}
+
+.wrap .review .review_bottom .review_voise4 span{
+    font-size: 13px;
+    color: #3b3b3b;
+}
+
+.wrap .review .review_bottom .review_voise4 img{
+    width: 70px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 8px;
+}
+
+.wrap .review .review_bottom .review_voise5{
+    border-bottom: 1px solid #000;
+    padding: 15px;
+    font-family: 'Pretendard';
+    position: relative;
+    margin-top: 10px;
+}
+
+.wrap .review .review_bottom .review_voise5 p{
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.wrap .review .review_bottom .review_voise5 p span{
+    font-size: 12px;
+    color: #000;
+}
+
+.wrap .review .review_bottom .review_voise5 span{
+    font-size: 13px;
+    color: #3b3b3b;
+}
+
+.wrap .review .review_bottom .review_voise5 img{
+    width: 70px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 8px;
+}
+
+
+.wrap .review .review_bottom .review_voise6{
+    border-bottom: 1px solid #000;
+    padding: 15px;
+    font-family: 'Pretendard';
+    position: relative;
+    margin-top: 10px;
+}
+
+.wrap .review .review_bottom .review_voise6 p{
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.wrap .review .review_bottom .review_voise6 p span{
+    font-size: 12px;
+    color: #000;
+}
+
+.wrap .review .review_bottom .review_voise6 span{
+    font-size: 13px;
+    color: #3b3b3b;
+}
+
+.wrap .review .review_bottom .review_voise6 img{
+    width: 70px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 8px;
+}
+
+.wrap .QandA {
+    width: 850px;
+    height: 800px;
+    margin-top: 175px;
+}
+
+.wrap .QandA .QandA_top{
+    width: 850px;
+    height: 220px;
+    border-bottom: 4px solid #000;
+}
+
+.wrap .QandA .QandA_top .product_qa{
+    width: 300px;
+    height: 50px;
+    float: left;
+    margin-top: 105px;
+}
+
+.wrap .QandA .QandA_top .product_qa h1{
+    margin-bottom: -10px;
+}
+
+.wrap .QandA .QandA_top .product_qa2{
+    width: 517px;
+    height: 20px;
+    float: right;
+    margin-top: 20px;
+    font-family: 'Pretendard';
+    margin-top: 60px;
+}
+
+.wrap .QandA .QandA_top .product_qa2 li{
+    float: left;
+    margin: 0 10px;
+    font-size: 12px;
+    color: #424242;
+    font-family: 'Pretendard';
+    margin-top: 60px;
+}
+
+.wrap .QandA .QandA_top .product_qa2 li:nth-of-type(1){
+    color: black;
+    font-weight: bold;
+}
+
+.wrap .QandA .QandA_top .product_qa2 button{
+    width: 80px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    border: none;
+    float: right;
+    font-size: 12px;
+    margin-top: 18px;
+    font-family: 'Pretendard';
+    cursor: pointer;
+
+}
+
+.wrap .QandA .QandA_top .product_qa2 button:hover{
+    background-color: rgb(216, 58, 0);
+}
+
+.wrap .QandA .QandA_bottom .product_qanda{
+    width: 100%;
+    height: 400px;
+    float: left;
+}
+
+.wrap .QandA_bottom .product_qanda .qanda_1{
+    border-bottom: 1px solid #000;
+    padding: 15px;
+    font-family: 'Pretendard';
+    position: relative;
+}
+
+.wrap .QandA_bottom .product_qanda .qanda_1 p{
+    font-size: 15px;
+    margin-top: 20px;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.wrap .QandA_bottom .product_qanda .qanda_1 span{
+    font-size: 17px;
+    color: #000;
+}
+
+.wrap .QandA_bottom .product_qanda .qanda_1_who{
+    width: 220px;
+    height: 22px;
+    float: right;
+    font-family: 'Pretendard';
+    font-size: 13px;
+    margin-top: -32px;
+}
+
+.wrap .QandA_bottom .product_qanda .qanda_1_who p{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.wrap .QandA_bottom .product_qanda .qanda_1_who button{
+    border: none;
+    background-color: rgb(216, 58, 0);
+    width: 40px;
+    height: 20px;
+    color: #fff;
+    font-family: 'Pretendard';
+}
+
+.wrap .QandA_bottom .product_qanda .qanda_2{
+    border-bottom: 1px solid #000;
+    padding: 15px;
+    font-family: 'Pretendard';
+    position: relative;
+}
+
+.wrap .QandA_bottom .product_qanda .qanda_2 p{
+    font-size: 15px;
+    margin-top: 20px;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.wrap .QandA_bottom .product_qanda .qanda_2 span{
+    font-size: 17px;
+    color: #000;
+}
+
+.wrap .QandA_bottom .product_qanda .qanda_2_who{
+    width: 220px;
+    height: 22px;
+    float: right;
+    font-family: 'Pretendard';
+    font-size: 13px;
+    margin-top: -32px;
+}
+
+.wrap .QandA_bottom .product_qanda .qanda_2_who p{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.wrap .QandA_bottom .product_qanda .qanda_2_who button{
+    border: none;
+    background-color: rgb(216, 58, 0);
+    width: 40px;
+    height: 20px;
+    color: #fff;
+    font-family: 'Pretendard';
+}
+
+.wrap .QandA_bottom .product_qanda .qanda_3{
+    border-bottom: 1px solid #000;
+    padding: 15px;
+    font-family: 'Pretendard';
+    position: relative;
+}
+
+.wrap .QandA_bottom .product_qanda .qanda_3 p{
+    font-size: 15px;
+    margin-top: 20px;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.wrap .QandA_bottom .product_qanda .qanda_3 span{
+    font-size: 17px;
+    color: #000;
+}
+
+.wrap .QandA_bottom .product_qanda .qanda_3_who{
+    width: 220px;
+    height: 22px;
+    float: right;
+    font-family: 'Pretendard';
+    font-size: 13px;
+    margin-top: -32px;
+}
+
+.wrap .QandA_bottom .product_qanda .qanda_3_who p{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.wrap .QandA_bottom .product_qanda .qanda_3_who button{
+    border: none;
+    background-color: rgb(216, 58, 0);
+    width: 40px;
+    height: 20px;
+    color: #fff;
+    font-family: 'Pretendard';
+}
+
+.wrap .QandA_bottom .product_qanda .qanda_4{
+    border-bottom: 1px solid #000;
+    padding: 15px;
+    font-family: 'Pretendard';
+    position: relative;
+}
+
+.wrap .QandA_bottom .product_qanda .qanda_4 p{
+    font-size: 15px;
+    margin-top: 20px;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.wrap .QandA_bottom .product_qanda .qanda_4 span{
+    font-size: 17px;
+    color: #000;
+}
+
+.wrap .QandA_bottom .product_qanda .qanda_4_who{
+    width: 220px;
+    height: 22px;
+    float: right;
+    font-family: 'Pretendard';
+    font-size: 13px;
+    margin-top: -32px;
+}
+
+.wrap .QandA_bottom .product_qanda .qanda_4_who p{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.wrap .QandA_bottom .product_qanda .qanda_4_who button{
+    border: none;
+    background-color: rgb(216, 58, 0);
+    width: 40px;
+    height: 20px;
+    color: #fff;
+    font-family: 'Pretendard';
+}
+
+.wrap .sand{
+    width: 850px;
+    height: 900px;
+    margin-top: 200px;
+}
+
+
+.wrap .sand .delivery .de_top{
+    width: 850px;
+    height: 145px;
+    border-bottom: 4px solid #000;
+    padding-top: 30px;
+    font-family: 'Pretendard';
+}
+
+.wrap .sand .delivery .de_top h1{
+    margin-top: 50px;
+    font-family: 'Pretendard';
+}
+
+.wrap .sand .delivery .de_bottom{
+    width: 850px;
+    height: 200px;
+    margin-top: 20px;
+    font-family: 'Pretendard';
+}
+
+.wrap .sand .delivery .de_bottom li{
+    list-style-type: disc;
+    margin-left: 50px;
+    line-height: 30px;
+    font-family: 'Pretendard';
+    line-height: 35px;
+}
+
+.tag1 {
+    width: 500px;
+    height: 150px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.tag1>p {
+    font-family: 'Kaisei Opti', serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.tag1>.best {
+    color: orangered;
+    margin-top: -27px;
+}
+
+.tag1>a span {
+    color: #000000;
+    font-family: 'pretendard';
+}
+
+
+.weekly {
+    width: 1300px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bestone {
+    width: 30%;
+    height: 500px;
+}
+
+.bestone .bestone_imgbox{
+    width: 100%;
+    height: 390px;
+    position: relative;
+}
+
+.bestone img:nth-of-type(2){
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s linear;
+}
+
+
+.bestone_imgbox:hover img:nth-of-type(2){
+    opacity: 1;
+}
+
+.bestone img{
+    max-width: 100%;
+}
+
+.bestone_textbox{
+    float: left;
+    font-family: 'pretendard';
+    margin-top: 10px;
+}
+
+.bestone_textbox > h4{
+    margin: 5px 0;
+}
+
+.bestone_textbox > h4{
+    margin: 5px 0;
+}
+
+.bestone_textbox > p{
+    margin-bottom: 3px;
+}
+
+.bestone_heart{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000000;
+    float: right;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.enter{
+    width: 100%;
+    height: 200px;
+}
+
+#top {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+}
+
+#top img{
+    width: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
